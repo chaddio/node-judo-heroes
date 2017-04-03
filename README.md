@@ -8,5 +8,12 @@ npm install --save babel-cli@6.11.x babel-core@6.13.x  \
 
 npm install --save-dev webpack@1.13.x babel-loader@6.2.x http-server@0.9.x
 
-- run node server
+run http server:
+
+node_modules/.bin/http-server src/static
+
+run node server:
+
 NODE_ENV=production node_modules/.bin/babel-node --presets react,es2015 src/server.js
+
+
